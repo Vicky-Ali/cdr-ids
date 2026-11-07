@@ -1,8 +1,7 @@
 # Calibrate, Don't Retrain (cdr-ids)
 
 Core implementation of the method in the paper **"Calibrate, Don't Retrain: Training-Free Adaptation with Guaranteed
-Alert Budgets for Intrusion Detection under Normality Shift"** (Journal of Information Security and Applications,
-under review).
+Alert Budgets for Intrusion Detection under Normality Shift"** .
 
 When an anomaly-based intrusion detector moves to a new deployment, benign behaviour changes and the alert budget
 (the share of benign traffic that raises alerts) silently breaks. For nearest-neighbour detectors we adapt without
@@ -52,7 +51,7 @@ used with other scorers; memory insertion is specific to memory-based (kNN) dete
 
 ## Datasets used in the paper
 
-No data are included. The paper evaluates the method on 5G-NIDD (base-station shift,
+The paper evaluates the method on 5G-NIDD (base-station shift,
 <https://ieee-dataport.org/node/10203>), CSE-CIC-IDS2018 (corrected release,
 <https://intrusion-detection.distrinet-research.be/CNS2022/>) and CAShift (<https://github.com/fish98/CAShift>).
 
@@ -62,12 +61,8 @@ No data are included. The paper evaluates the method on 5G-NIDD (base-station sh
 @article{ali2026calibrate,
   title   = {Calibrate, Don't Retrain: Training-Free Adaptation with Guaranteed Alert Budgets for Intrusion
              Detection under Normality Shift},
-  author  = {Ali, Syed Waqas and others},
-  journal = {Journal of Information Security and Applications},
-  note    = {Under review},
-  year    = {2026}
 }
-```
+
 
 ## Licence and contact
 
