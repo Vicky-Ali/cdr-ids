@@ -1,0 +1,6 @@
+# Versions used for the paper (Python 3.12.3). Install: pip install -r requirements.txt
+numpy==2.3.5
+scipy==1.16.2
+scikit-learn==1.7.2
+torch==2.9.0
+pytest==9.2.0

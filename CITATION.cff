@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "cdr-ids: Calibrate, Don't Retrain -- core method"
+version: 1.0.0
+date-released: 2026-11-04
+license: MIT
+# TODO(authors): add the Zenodo DOI of this release.
+repository-code: "https://github.com/Vicky-Ali/cdr-ids"
+# doi: "10.5281/zenodo.TODO"
+authors:
+  - family-names: Ali
+    given-names: Syed Waqas
+    affiliation: University of Azad Jammu and Kashmir
+# TODO(authors): add the co-authors when the author list is final.
+keywords:
+  - intrusion detection
+  - normality shift
+  - false-alarm control
+  - Clopper-Pearson bound
+  - conformal prediction
+  - training-free adaptation
+preferred-citation:
+  type: article
+  title: "Calibrate, Don't Retrain: Training-Free Adaptation with Guaranteed Alert Budgets for Intrusion Detection under Normality Shift"
+  authors:
+    - family-names: Ali
+      given-names: Syed Waqas
+  journal: "Journal of Information Security and Applications (under review)"
+  year: 2026
+  # TODO(authors): add volume, pages and the article DOI after acceptance.
+  # doi: "10.1016/j.jisa.TODO"
