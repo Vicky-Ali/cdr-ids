@@ -1,0 +1,13 @@
+Upload to https://github.com/Vicky-Ali/cdr-ids  (GitHub allows at most 100 files per upload, so do it in 4 rounds)
+
+1. Create the repository: github.com -> + -> New repository -> name: cdr-ids -> Public -> leave ALL boxes unticked -> Create.
+2. On the new empty repository page click "uploading an existing file".
+3. Round 1: open folder part1, select EVERYTHING inside it (Ctrl+A, including .gitignore) and drag it into the browser.
+   Wait until all files are listed, write "Initial public release (v1.0.0) - code" and click "Commit changes".
+4. Rounds 2, 3, 4: on the repository page click "Add file" -> "Upload files".
+   Open folder part2 (then part3, then part4) and drag the folder "results" that is inside it into the browser.
+   Commit messages: "Add results (per-run)", "Add results (package_v2)", "Add results (confound)".
+5. Check: the repository front page shows the README; the folders analysis, cdr, configs, data, experiments, prep,
+   results, scripts, tests, third_party are there; results contains confound, d3, m7, main, package_v2, paper, split
+   and timing.csv. In total 284 files.
+Use Chrome or Edge (they keep the folder structure when you drag folders).
